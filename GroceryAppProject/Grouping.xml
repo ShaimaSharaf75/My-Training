@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<suite name="MyTestsuit">
+	
+	<test name="MyTest">
+		
+		<groups>
+			
+			<run>
+
+				
+
+				<exclude name="medium" />
+
+			</run>
+
+		</groups>
+		
+		<classes>
+
+			<class name="testCases.LoginPageTestCases"></class>
+
+		</classes>
+
+	</test>
+
+</suite>

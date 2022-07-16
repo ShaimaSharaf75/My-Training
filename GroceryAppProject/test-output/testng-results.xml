@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T20:26:10 IST" name="MyTestSuite" finished-at="2022-07-14T20:26:18 IST" duration-ms="8047">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T20:26:10 IST" name="ChromeTest" finished-at="2022-07-14T20:26:18 IST" duration-ms="8047">
+      <class name="testCases.AddCategoryPageTestCases">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.AddCategoryPageTestCases@6c64cb25]" started-at="2022-07-14T20:26:10 IST" name="beforeMethod" finished-at="2022-07-14T20:26:14 IST" duration-ms="3735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCategoryGroupItemIsSelected()[pri:0, instance:testCases.AddCategoryPageTestCases@6c64cb25]" started-at="2022-07-14T20:26:14 IST" name="verifyCategoryGroupItemIsSelected" finished-at="2022-07-14T20:26:18 IST" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoryGroupItemIsSelected -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testCases.AddCategoryPageTestCases@6c64cb25]" started-at="2022-07-14T20:26:18 IST" name="afterMethod" finished-at="2022-07-14T20:26:18 IST" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCategoryGroupItemIsSelected status=SUCCESS method=AddCategoryPageTestCases.verifyCategoryGroupItemIsSelected()[pri:0, instance:testCases.AddCategoryPageTestCases@6c64cb25] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.AddCategoryPageTestCases -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>
